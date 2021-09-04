@@ -1,0 +1,25 @@
+{
+  "name": "shortlinks",
+  "version": "0.0.0",
+  "description": "Read a list of shortlinks from one site and use it as a netlify redirects file for this site.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "github:qubyte/shortlinks",
+  "author": "Mark S. Everitt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qubyte/shortlinks/issues"
+  },
+  "homepage": "https://github.com/qubyte/shortlinks#readme",
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-qubyte": "^4.1.0"
+  }
+}
